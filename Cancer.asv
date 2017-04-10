@@ -1,0 +1,7 @@
+clear all, close all, clc
+A = importdata('WDBC.dat');
+P = p.data;
+t1 = p.textdata(:,1);
+t2 = p.textdata(:,2);
+
+for i=1
