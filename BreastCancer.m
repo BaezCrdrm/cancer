@@ -22,7 +22,7 @@ function varargout = BreastCancer(varargin)
 
 % Edit the above text to modify the response to help BreastCancer
 
-% Last Modified by GUIDE v2.5 16-Apr-2017 23:31:48
+% Last Modified by GUIDE v2.5 17-Apr-2017 21:06:12
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -1291,5 +1291,6 @@ global sampleLoaded
 sampleLoaded = true;
 
 global pEntrada
+%Si se puede, que se pueda seleccionar el archivo
 pEntrada = importdata('sample.dat')
 %Mostrar en interfaz mensaje de que se cargaron los datos
